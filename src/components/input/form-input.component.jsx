@@ -1,13 +1,4 @@
-import { Fragment, useState } from 'react'
-
 import './form-input.styles.scss'
-
-const defaultFormFields = {
-  displayName: '',
-  email: '',
-  password: '',
-  confirmPassword: ''
-}
 
 const FormInput = ({ label, ...otherProps }) => {
   return (
